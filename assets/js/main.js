@@ -120,17 +120,17 @@
 		e.preventDefault();
 		const data = $(this).serializeArray();
 
-		const name = data.find(item => item.name === 'name');
-		const email = data.find(item => item.name === 'email');
-		const message = data.find(item => item.name === 'message');
+		const name = data.find(function(item) { return item.name === 'name'});
+		const email = data.find(function(item) { return item.name === 'email'});
+		const message = data.find(function(item) { return item.name === 'message'});
 
 		if (!name || !email || !message) return;
 
 		const receiver = 'sajeeb07ahamed@gmail.com';
-		const subject = `A message from "${name.value}: ${email.value}"`;
+		const subject = 'A message from "' + name.value + ':' + email.value + '"';
 
 		window.open(
-			`mailto:${receiver}?subject=${subject}&body=${message.value}`
+			'mailto:' + receiver + '?subject=' + subject + '&body=' + message.value
 		);
 	});
 })(jQuery);

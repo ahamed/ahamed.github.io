@@ -1,0 +1,22 @@
+{
+  "name": "ahamed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahamed/ahamed.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahamed/ahamed.github.io/issues"
+  },
+  "homepage": "https://github.com/ahamed/ahamed.github.io#readme",
+  "devDependencies": {
+    "gulp-bundle-assets": "^2.29.0"
+  }
+}

@@ -30,7 +30,7 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
 body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
@@ -892,11 +892,20 @@ p {
 	}
 }
 .header-content-right .title {
-	font-size: 38px;
+	font-size: 60px;
 	text-transform: uppercase;
 	padding-bottom: 15px;
 }
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	.header-content-right .title {
+		font-size: 38px;
+	}
+}
 @media (max-width: 767px) {
+	.header-content-right {
+		text-align: center;
+	}
 	.header-content-right .title {
 		font-size: 38px;
 	}
@@ -2351,5 +2360,3 @@ p.form-message.error.form-message.error {
 	line-height: 54px;
 	cursor: pointer;
 }
-
-/*# sourceMappingURL=style.css.map */
