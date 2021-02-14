@@ -14,7 +14,7 @@ module.exports = {
 				'./assets/js/main.js',
 			],
 			styles: [
-				'./assets/css/bootstrap.min.css',
+				'./assets/css/bootstrap.css',
 				'./assets/css/default.css',
 				'./assets/css/LineIcons.css',
 				'./assets/css/magnific-popup.css',
@@ -34,6 +34,6 @@ module.exports = {
 			options: {
 				rev: false,
 			},
-		}
+		},
 	},
 };
