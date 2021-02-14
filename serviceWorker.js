@@ -21,6 +21,7 @@ const assets = [
 	'./assets/images/favicon.png',
 	'./assets/images/map.png',
 	'./assets/images/picture.png',
+	'./assets/images/bullet.svg',
 ];
 
 self.addEventListener('install', installEvent => {
