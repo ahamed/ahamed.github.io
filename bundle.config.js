@@ -29,7 +29,7 @@ module.exports = {
 			scripts: [
 				'./assets/js/vendor/modernizr-3.6.0.min.js',
 				'./assets/js/vendor/jquery-1.12.4.min.js',
-				'./assets/js/vendor/bootstrap.min.js',
+				'./assets/js/vendor/bootstrap.bundle.js',
 			],
 			options: {
 				rev: false,

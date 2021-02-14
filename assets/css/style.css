@@ -1074,6 +1074,7 @@ p {
 }
 .about-content ul {
 	padding-top: 15px;
+	list-style-image: url(./images/bullet.svg);
 }
 .about-content ul li {
 	width: 100%;
@@ -1090,6 +1091,12 @@ p {
 	.about-content ul li {
 		width: 100%;
 		float: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.about-content ul {
+		list-style-position: inside;
 	}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
